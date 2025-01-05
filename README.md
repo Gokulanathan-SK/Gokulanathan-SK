@@ -19,7 +19,7 @@ This is my personal portfolio website showcasing my skills, projects, and profes
 1. **Clone the Repository**:
     ```bash
     git clone git@github.com:Gokulanathan-SK/Gokulanathan-SK.github.io.git
-    cd Gokulanathan-SK.github.io
+    cd Gokulanathan-SK
     ```
 2. **View Locally**:  
    Open `index.html` in your browser, or host it on a web server for public access.
