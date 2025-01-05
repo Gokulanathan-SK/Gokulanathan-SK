@@ -1,0 +1,88 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: #4A4A4A;
+  color: #F0F4F8;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(249, 249, 249);
+  overflow-x: hidden;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+}
+
+/* FLEXED ELEMENTS */
+
+article,
+nav,
+#contact,
+#profile,
+#socials-container,
+.about-containers,
+.about-details-container,
+.article-container,
+.contact-info-upper-container,
+.contact-info-container,
+.experience-details-container,
+.nav-links,
+.btn-container,
+.section__pic-container,
+.section-container {
+  display: flex;
+}
+
+nav{
+  justify-content: space-between;
+}
+
+.article-container {
+  justify-content: space-around;
+}
+
+article,
+nav,
+.contact-info-container {
+  align-items: center;
+}
+
+
+
+.nav-links,
+.about-containers {
+  gap: 2rem;
+}
+
+
+#contact,
+#profile,
+#socials-container,
+.about-details-container,
+.experience-details-container,
+.contact-info-upper-container,
+.contact-info-container,
+.btn-container {
+  justify-content: center;
+}
+
+#contact,
+.about-details-container,
+.experience-details-container {
+  flex-direction: column;
+}

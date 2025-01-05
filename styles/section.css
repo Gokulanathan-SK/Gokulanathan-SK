@@ -1,0 +1,258 @@
+/* SECTIONS */
+
+#about,
+#experience,
+#projects {
+  position: relative;
+}
+
+section {
+  padding-top: 4vh;
+  height: 93vh;
+  margin: 0 9rem;
+}
+
+.section-container,
+.about-containers {
+  margin-top: 0rem;
+}
+
+.section-container {
+  gap: 4rem;
+}
+
+.section-container,
+.experience-details-container {
+  height: 80%;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.btn,
+.experience-sub-title,
+.section__text p,
+.title {
+  font-weight: 600;
+}
+
+footer p,
+.details-container,
+.section__text__p1,
+.section__text,
+.title {
+  text-align: center;
+}
+
+/* TRANSITIONS */
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/* BUTTONS */
+
+.btn {
+  padding: 1rem;
+  width: 8rem;
+}
+
+.about-pic,
+.btn,
+.contact-info-upper-container,
+.details-container,
+.project-img {
+  border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2,
+.details-container,
+.contact-info-upper-container {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.icon,
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+#socials-container,
+.btn-container {
+  gap: 1rem;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+  gap: 5rem;
+  height: 80vh;
+}
+
+.my-profile-image{
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  filter: grayscale(50%);
+}
+.section__text {
+  align-self: center;
+}
+
+.experience-sub-title,
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.section__pic-container {
+  height: 375px;
+  width: 375px;
+  margin: auto 0;
+}
+
+#socials-container {
+  margin-top: 1rem;
+}
+
+/* ABOUT SECTION */
+
+.about-containers,
+.experience-sub-title {
+  margin-bottom: 2rem;
+}
+
+.about-pic{
+  width: 400px;
+  height: 375px;
+  filter:grayscale(69%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.details-container,
+.color-container,
+.contact-info-upper-container,
+.project-btn {
+  border-color: rgb(163, 163, 163);
+}
+
+.icon {
+  height: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+/* EXPERIENCE SECTIION */
+
+.article-container {
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+article {
+  width: 10rem;
+}
+
+/* PROJECTS SECTION */
+
+/* .project-img {
+  width: 90%;
+  height: 90%;
+}
+
+.color-container,
+.contact-info-upper-container,
+.details-container {
+  background: rgb(250, 250, 250);
+} */
+
+span{
+ text-align: center;
+ display: block;
+ margin: 10vh -30vh;
+}
+
+.project-section{
+  background-color: #fff;
+  padding: 20vh 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* CONTACT SECTION */
+
+.contact-info-upper-container {
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+#contact {
+  height: 96vh;
+}
+
+.contact-info-container,
+article {
+  gap: 0.5rem;
+}
+
+.contact-info-container,
+.project-title {
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+article .icon,
+.contact-icon,
+.logo:hover {
+  cursor: default;
+}
+
+.mail-size{
+  width: 40px;
+  height: 40px;
+}
+/* FOOTER SECTION */
+
+footer {
+  margin: 0 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5vh 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,36 @@
+/* NAVBAR */
+
+a,
+.project-btn,
+.project-title {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+nav {
+  padding: 1.45rem 3rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 10px 0px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
